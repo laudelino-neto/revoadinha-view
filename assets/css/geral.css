@@ -329,13 +329,33 @@ nav .icone{
     width:120px;
     height: 120px;
 }
-nav li{
+.filtros-icons .icone{
+    width:100px;
+    height: 100px;
+}
 
+.filtros-icons label{
+    font-weight: 400;
+    font-size: 40px;
+    color: #9B98C7;
 }
 nav ul{
-    margin-top: 270px;
+    margin-top: 85px;
     list-style: none;
     display: flex;
     justify-content: space-between;
     padding: 30px;
+}
+
+.filtros-icons{
+    display: flex;
+    margin: 50px 0px;
+    border-bottom: #9B98C79C 10px solid;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.filtro-icon{
+    display: flex;
+    flex-direction: column;
 }
